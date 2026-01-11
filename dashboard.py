@@ -273,7 +273,6 @@ with tab2:
     st.dataframe(legit_samples, use_container_width=True, hide_index=True)
 
 # ========== FOOTER ==========
-st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #888; padding: 1rem;'>
     <p><strong>WQD7008 Parallel & Distributed Computing</strong></p>
@@ -281,7 +280,6 @@ st.markdown("""
     <p>Universiti Malaya | January 2026</p>
 </div>
 """, unsafe_allow_html=True)
-```
 
 ---
 
