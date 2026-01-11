@@ -53,9 +53,9 @@ st.markdown('<p class="sub-header">WQD7008 Parallel & Distributed Computing | Gr
 with st.expander("ℹ️ System Architecture", expanded=False):
     st.markdown("""
     **Pipeline Overview:**
-```
+
     Data (S3) → Spark on EMR → ML Model (GBT) → Predictions → Lambda API → Dashboard
-```
+
     
     **Technologies Used:**
     - **AWS S3**: Data storage
@@ -283,6 +283,6 @@ st.markdown("""
 
 
 ## REQUIREMENTS.TXT
-```
+
 streamlit
 pandas
