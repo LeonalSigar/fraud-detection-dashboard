@@ -281,9 +281,8 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
----
 
 ## REQUIREMENTS.TXT
 ```
-streamlit==1.31.0
-pandas==2.0.3
+streamlit
+pandas
